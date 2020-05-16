@@ -17,6 +17,10 @@ header {
   font-family: 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
 }
 
+section {
+  height: 1700px;
+}
+
 .logo {
   display: block;
   position: absolute;
@@ -111,7 +115,7 @@ menu {
 section {
   border: 1px solid black;
   display: block;
-  height: 900px;
+  height: 1000px;
 }
 
 section h2 {
@@ -135,29 +139,40 @@ section h2 {
   max-height: 100%;
 }
 .item {
-  position: relative;
-  width: 18%;
-
+  width: 21%;
   margin: 16px;
   z-index: 2;
 }
 
 .item1 {
-  height: 637px;
+  position: relative;
+  height: 537px;
 }
 
 .item2 {
-  height: 482px;
+  position: relative;
+  height: 352px;
 }
 
 .item img {
   z-index: 3;
-  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.text-block {
+.item1 .text-block {
   position: absolute;
-  top: 400px;
+  top: 500px;
+  left: 30px;
+  padding: 20px;
+  background-color: #ffff;
+  font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+}
+
+.item2 .text-block {
+  position: absolute;
+  top: 300px;
   left: 30px;
   padding: 20px;
   background-color: #ffff;
@@ -171,4 +186,46 @@ section h2 {
 
 .text-block h3 {
   font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+}
+
+.fashion-container {
+  height: 88%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.fashion-item {
+  position: relative;
+  margin: 130px 5px 50px 5px;
+  width: 44%;
+  height: 90%;
+}
+
+.fashion-item img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.fashion-textbox {
+  position: absolute;
+  bottom: 0;
+  padding: 15px;
+}
+
+.fashion-textbox p {
+  font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  color: #ffff;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+}
+
+.fashion-textbox h1 {
+  font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  color: #ffff;
+  font-size: 50px;
+  margin: 0;
+  padding: 0;
 }
