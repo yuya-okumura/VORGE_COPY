@@ -6,6 +6,11 @@ body {
   display: block;
 }
 
+h1 h2 h3 p {
+  font-family: 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  font-weight: bold;
+}
+
 header {
   position: relative;
   width: 100%;
@@ -15,10 +20,6 @@ header {
   background-color: rgb(255, 255, 255);
   border-top: 20px solid rgb(0, 0, 0);
   font-family: 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
-}
-
-section {
-  height: 1700px;
 }
 
 .logo {
@@ -189,17 +190,97 @@ section h2 {
 }
 
 .fashion-container {
-  height: 88%;
+  height: 100%;
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
 .fashion-item {
-  position: relative;
+  position: sticky;
+  top: 0;
   margin: 130px 5px 50px 5px;
-  width: 44%;
-  height: 90%;
+  width: 36%;
+  height: 100vh;
+}
+
+.scroll-item {
+  margin: 130px 5px 50px 5px;
+  width: 36%;
+  height: 100%;
+  display: flex;
+}
+
+.scroll-item p {
+  font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  font-size: 12px;
+  margin: 0;
+}
+
+.scroll-item h3 {
+  font-family: YakuHanJP, 'Yu Gothic', YuGothic, 'Hiragino Sans', 'Noto Sans CJK JP', sans-serif;
+  font-size: 20px;
+  margin: 0;
+}
+
+.scroll-inner1 {
+  position: relative;
+  margin-right: 10px;
+  width: 320px;
+  height: 600px;
+}
+.scroll-inner2 {
+  position: relative;
+  width: 320px;
+  height: 760px;
+}
+
+.scroll-inner3 {
+  position: relative;
+  width: 320px;
+  height: 760px;
+}
+
+.scroll-inner1 img {
+  object-fit: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.scroll-inner2 img {
+  object-fit: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.scroll-inner3 img {
+  object-fit: cover;
+  height: 60%;
+  width: 100%;
+}
+
+.scroll-text-block1 {
+  background-color: #ffff;
+  position: absolute;
+  top: 320px;
+  left: 20px;
+  padding: 12px;
+}
+
+.scroll-text-block2 {
+  background-color: #ffff;
+  position: absolute;
+  top: 420px;
+  left: 20px;
+  padding: 12px;
+}
+
+.scroll-text-block3 {
+  background-color: #ffff;
+  position: absolute;
+  top: 420px;
+  left: 20px;
+  padding: 12px;
 }
 
 .fashion-item img {
@@ -228,4 +309,8 @@ section h2 {
   font-size: 50px;
   margin: 0;
   padding: 0;
+}
+
+.scroll-section {
+  height: 4000px;
 }
