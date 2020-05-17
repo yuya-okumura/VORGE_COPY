@@ -206,9 +206,9 @@ section h2 {
 
 .scroll-item {
   margin: 130px 5px 50px 5px;
-  width: 36%;
+  width: 20%;
   height: 100%;
-  display: flex;
+  display: block;
 }
 
 .scroll-item p {
@@ -232,7 +232,7 @@ section h2 {
 .scroll-inner2 {
   position: relative;
   width: 320px;
-  height: 760px;
+  height: 680px;
 }
 
 .scroll-inner3 {
@@ -270,7 +270,7 @@ section h2 {
 .scroll-text-block2 {
   background-color: #ffff;
   position: absolute;
-  top: 420px;
+  top: 400px;
   left: 20px;
   padding: 12px;
 }
@@ -293,6 +293,7 @@ section h2 {
   position: absolute;
   bottom: 0;
   padding: 15px;
+  line-height: 4.5em;
 }
 
 .fashion-textbox p {
@@ -312,5 +313,5 @@ section h2 {
 }
 
 .scroll-section {
-  height: 4000px;
+  height: 2000px;
 }
